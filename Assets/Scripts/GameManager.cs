@@ -19,7 +19,9 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         if (Time.timeScale == 0 && Input.GetKeyDown(KeyCode.Return))
+        {
             StartGame();
+        }
     }
 
     public void UpdateScore(int value)
@@ -33,7 +35,7 @@ public class GameManager : MonoBehaviour
         Score = 0;
         Time.timeScale = 1;
         Txt_Message.text = "";
-        Txt_Score.text = "SCORE : 0";
+        Txt_Score.text = "SCORE : " + Score;
     }
 
     public void GameOver()

@@ -188,6 +188,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1cf1b698ab752243a1eb0f9b3af33ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Flapflap: 0
+  rb: {fileID: 0}
+  Obstacles: {fileID: 1662584973375887002, guid: ed5b6e139639a11419909b026eb40da8,
+    type: 3}
 --- !u!1 &3215714166224241422
 GameObject:
   m_ObjectHideFlags: 0
